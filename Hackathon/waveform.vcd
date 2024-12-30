@@ -1,0 +1,60 @@
+$date
+	Wed Nov 20 15:32:53 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! result [7:0] $end
+$var reg 8 " A [7:0] $end
+$var reg 8 # B [7:0] $end
+$var reg 2 $ opcode [1:0] $end
+$scope module alu_instance $end
+$var wire 8 % A [7:0] $end
+$var wire 8 & B [7:0] $end
+$var wire 8 ' and_result [7:0] $end
+$var wire 8 ( nand_result [7:0] $end
+$var wire 8 ) nor_result [7:0] $end
+$var wire 2 * opcode [1:0] $end
+$var wire 8 + or_result [7:0] $end
+$var wire 8 , result [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10001000 ,
+b11101110 +
+b0 *
+b10001 )
+b1110111 (
+b10001000 '
+b10101010 &
+b11001100 %
+b0 $
+b10101010 #
+b11001100 "
+b10001000 !
+$end
+#10
+b11101110 !
+b11101110 ,
+b1 $
+b1 *
+#20
+b1110111 !
+b1110111 ,
+b10 $
+b10 *
+#30
+b10001 !
+b10001 ,
+b11 $
+b11 *
+#50
